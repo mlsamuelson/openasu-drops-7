@@ -58,6 +58,28 @@ projects[asu_cas][download][revision] = f5a75f9
 projects[asu_cas][download][branch] = 7.x-1.x
 projects[asu_cas][download][url] = https://github.com/kalamuna/asu_cas.git
 
+projects[asu_userpicker][version] = 1.0
+projects[asu_userpicker][subdir] = custom
+projects[asu_userpicker][type] = module
+projects[asu_userpicker][download][type] = git
+projects[asu_userpicker][download][revision] = 95a01aadb043e9c2e6241a301e253d7c56e26b71
+projects[asu_userpicker][download][tag] = 7.x-1.0
+projects[asu_userpicker][download][url] = https://github.com/mlsamuelson/asu_userpicker.git
+
+; ASU Userpicker Prerequisites
+
+projects[references][version] = 2.1
+projects[references][type] = module
+projects[references][subdir] = contrib
+
+projects[ldap][version] = 2.0-beta6 
+projects[ldap][type] = module
+projects[ldap][subdir] = contrib
+
+projects[cas_attributes][version] = 1.0-rc2
+projects[cas_attributes][type] = module
+projects[cas_attributes][subdir] = contrib
+
 ; Bootstrap and Theme Framework
 
 projects[kalatheme][version] = 1.0-rc4
